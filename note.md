@@ -5,3 +5,23 @@
 - it auto applies some classes. 
 - 
 
+
+* Course 8
+# universal rendering
+
+- useFetch('api url') takes a endpoint from data
+- const { data: products } = await useFetch('..')
+- code runs both inside the script tag and server 
+nuxt can pre run the code in the server
+
+* Course 11
+
+# META DATA: Default
+- nuxt.config.ts
+# how to overwrite?
+1/ useHead ({
+  title: 
+  meta: [ name: . content:]
+})
+
+2/ <template> <Head> <Title> <Meta name= "" :content="">
